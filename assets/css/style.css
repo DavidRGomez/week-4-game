@@ -1,0 +1,76 @@
+body{
+	background-color: gray;
+}
+
+header{
+    display: block;
+    background-color:blue;
+    height: 80px;
+    width: 300px;
+    color: white;
+  	text-align: center;
+  	padding-top: 50px;
+  	margin-left: 30px;  
+  	margin-top: 30px;
+}
+
+.instructions{
+	width: 500px;
+	height: 300px;
+	background-color: black;
+	padding-left: 10px;
+	padding-top: 10px;
+	margin-top: 20px;
+	margin-left:30px;
+}
+p{
+	color: white;
+}
+
+.boxForYourTotal{
+	float:left;
+	width: 200px;
+	height: 100px;
+	background-color: green;
+	margin-left: 30px;
+	margin-top: 10px;
+
+}
+aside{
+	float:left;
+	display: block;
+	background-color: purple;
+	width: 150px;
+	height: 80px;
+	margin-left: 10px;
+	margin-top: 10px;
+	text-align: center;
+	padding-top: 20px;
+	color: white;
+}
+.pictures{
+	clear:both;
+	margin-top: 130px;
+	margin-left: 30px;
+}
+img{
+	
+	width: 100px;
+	height: 100px;
+}
+.totalAccumBox{
+	width:200px;
+	height: 20px;
+	background-color: yellow;
+	margin-left: 30px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.totalAccumBox2{
+	width: 200px;
+	height: 100px;
+	background-color: yellow;
+	margin-left: 30px;
+	margin-bottom: 50px;
+	color: red;
+}

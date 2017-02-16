@@ -1,0 +1,63 @@
+<!doctype html>
+<head>
+<title>Week 4 JQuery HMWK!</title>
+
+
+
+<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+
+</head>
+
+
+<body>
+<header> Crystal Collector!</header>
+<div class="instructions">
+	<p>You Will be givn a random number at the start of the game. 
+	</p><br><br>
+	<p>
+	There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.
+	</p><br><br>
+	<p>
+	You win the game by mathing your total score to rndom number, you lose the game if your total score goes above the random number.
+	</p><br><br>
+	<p>
+	The value of each crystal is hidden from you until you click on it.
+	</p><br><br>
+	<p>
+	Each time when the game starts, the game will change the values of each crystal.
+	</p>
+</div>
+
+<div class="boxForYourTotal">
+	<span id="yourTotal">_</span>
+</div>
+<aside>
+	<div id="popUpWinOrLoss"></div>
+	<div>Wins:<span id="winsCount">0</span></div>
+	<div>Losses:<span id="lossCount">0</span></div>
+</aside>
+<div class="pictures">
+	<span ><img id="blue" src="assets/images/blueGem.png"></span>
+	<span><img  id="green" src="assets/images/greenGem.png"></span>
+	<span ><img id="purple" src="assets/images/purpleGem.png"></span>
+	<span ><img id="teal" src="assets/images/TealGem.png"></span>
+</div>
+
+<div class="totalAccumBox">
+	Your total score is:
+	
+</div>
+<div class="totalAccumBox2">
+	<span id="totalAccumScore">0</span>
+</div>
+
+
+</body>
+
+</html>
